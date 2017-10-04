@@ -14,3 +14,13 @@
 .header p {
     text-align: center;
 }
+
+.product {
+    height: 475px;
+    background: #FFF;
+}
+
+.footer {
+    height: 350px;
+    background: #373737;
+}
