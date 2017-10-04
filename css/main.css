@@ -15,8 +15,41 @@
     text-align: center;
 }
 
+.mainbgimage {
+  display: block;
+  position: relative;
+  background: rgba(0, 0, 0, .25);
+  color: white;
+  padding: 10em 1em 10em 1em;
+}
+
+.mainbgimage::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("/resources/images/LADYSNOW.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: .5;
+  z-index: -1;
+}
+
+.navbarStyle {
+    background: #373737;
+    border-radius: 0px;
+
+}
+
+.navbarStyle li {
+    color: #FFF;
+}
+
 .product {
-    height: 475px;
+    height: 460px;
     background: #FFF;
 }
 
