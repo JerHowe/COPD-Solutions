@@ -22,13 +22,13 @@
 
       <!-- Header -->
       <div class="row header">
-        <div class="col-sm-4 centeredFlexbox">
+        <div class="col-md-4 centeredFlexbox">
           <p>HOURS MON - FRI 9 AM - 5 PM</p>
         </div>
-        <div class="col-sm-4 centeredFlexbox">
-          <h1 class="leixoFont" >COPD Solutions</h1>
+        <div class="col-md-4 centeredFlexbox">
+          <h1 id="middle" class="leixoFont" >COPD Solutions</h1>
         </div>
-        <div class="col-sm-4 centeredFlexbox">
+        <div class="col-md-4 centeredFlexbox">
           <p>600 E CARLSON ST SUITE 101</p>
         </div>
       </div>
@@ -36,7 +36,7 @@
     <!-- NavBar -->
     <nav class="navbar navbar-inverse navbarStyle">
       <div class="container-fluid">
-        <ul class="nav navbar-nav proximaFont">
+        <ul class="nav navbar-nav navbar-center proximaFont">
           <li class="active"><a href="#">HOME</a></li>
           <li><a href="#">ABOUT US</a></li>
           <li><a href="#">PRODUCTS</a></li>
@@ -50,31 +50,63 @@
     </nav>
 
     <!-- Jumbotron -->
-    <div class="jumbotron mainbgimage text-center">
+    <div class="jumbotron mainbgimage">
       <div class="container">
-        <h1 class="butlerFont">DON&#8217;T LET ANYTHING HOLD YOU BACK</h1>
-        <p class="butlerFont">Buy Respiratory Solutions</p>
-        <a href="#" class="btn btn-primary btn-lg">START NOW</a>
+        <div class="col-md-8 text-center contentBox" >
+          <h1 class="butlerFont">DON&#8217;T LET ANYTHING<br>HOLD YOU BACK</h1>
+          <p class="butlerFont">Buy Respiratory Solutions</p>
+          <a href="#" id="buttonStyle" class="btn btn-primary btn-lg proximaFont">START NOW</a>
+        </div>
       </div>
     </div>
 
-    <!-- Product Categories -->
-      <div class="row text-center product">
-        <div class="container">
-          <h1 class="butlerFont">OUR PRODUCTS</h1>
-          <div class="col-md-2 col-md-offset-1">LIFT CHAIRS</div>
-          <div class="col-md-2">WALKING AIDS</div>
-          <div class="col-md-2">WHEELCHAIRS</div>
-          <div class="col-md-2">CPAP</div>
-          <div class="col-md-2">OXYGEN</div>
+    <!-- OUR PRODUCTS -->
+    <div class="row col-md-12 text-center">
+      <div class="container" >
+        <h1 class="butlerFont">OUR PRODUCTS</h1>
       </div>
-      <!-- </div> -->
+    </div>
+
+
+    <!-- Product Categories -->
+    <div class="row text-center product">
+      <div class="container">
+        <div class="col-md-2 col-md-offset-1 productBoxes">
+          <p>LIFT CHAIRS</p>
+          <img src="/resources/images/liftChair.jpg" width="100%" alt="">
+        </div>
+        <div class="col-md-2 productBoxes">
+          <p>WALKING AIDS</p>
+          <img src="/resources/images/walkingAids.jpg" width="75%" alt="">
+        </div>
+        <div class="col-md-2 productBoxes">
+          <p>WHEELCHAIRS</p>
+          <img src="/resources/images/wheelchair.jpg" width="100%" alt="">
+        </div>
+        <div class="col-md-2 productBoxes">
+          <p>CPAP</p>
+          <img src="/resources/images/CPAP.jpg" width="100%" alt="">
+        </div>
+        <div class="col-md-2 productBoxes">
+          <p>OXYGEN</p>
+          <img src="/resources/images/oxygen.png" width="100%" alt="">
+        </div>
+      </div>
     </div>
 
     <!-- Footer -->
     <div class="navbar navbar-inverse navbar-static-bottom footer" role="navigation">
       <div class="container">
-        <div class="navbar-text pull-left" >
+        <div class="col-md-4 navbar-text pull-left" >
+          <div class="col-md-4 centeredFlexbox">
+            <h4>CONTACT US</h4>
+          </div>
+          <div class="col-md-4 centeredFlexbox">
+            <h4>VISIT US</h4>
+          </div>
+          <div class="col-md-4 centeredFlexbox">
+            <h4>NEWSLETTER SIGN-IP</h4>
+          </div>
           <p>© 2017 COPD Respiratory Services LLC</p>
         </div>
       </div>

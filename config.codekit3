@@ -146,14 +146,24 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/resources\/images\/LADYSNOW.jpeg": {
+	"\/resources\/images\/ladySnow.jpg": {
 		"ft": 16384,
-		"iS": 2728316,
+		"iS": 2641133,
 		"oA": 0,
-		"oAP": "\/resources\/images\/LADYSNOW.jpg",
+		"oAP": "\/resources\/images\/ladySnow.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/ladySnowCropped.jpg": {
+		"ft": 16384,
+		"iS": 2641133,
+		"oA": 0,
+		"oAP": "\/resources\/images\/ladySnowCropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/resources\/images\/liftChair.jpg": {
@@ -194,7 +204,7 @@
 		"oAP": "\/resources\/images\/wheelchair.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/scripts\/main.js": {
