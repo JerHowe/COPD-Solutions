@@ -1,4 +1,15 @@
+.leixoFont {
+    font-family: 'leixo';
+}
 
+.butlerFont {
+    font-family: 'butlerRegular';
+    color: #373737;
+}
+
+.proximaFont {
+    font-family: 'proximaRegular';
+}
 
 .header {
     height: 100px;
@@ -47,6 +58,7 @@
 .navbarStyle li {
     color: #FFF;
 }
+
 
 .product {
     height: 460px;
